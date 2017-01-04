@@ -1,0 +1,67 @@
+.search-bar {
+	margin: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.searchbar input {
+	width: 75%;
+}
+
+.video-item img {
+	max-width: 64px;
+}
+
+.video-detail .details {
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.details {
+	color: white;
+}
+
+.list-group-item {
+	cursor: pointer;
+
+}
+
+.list-group-item:hover {
+	background-color: #eee;
+}
+
+.parallax { 
+    /* The image used */
+    /*background-image: url("http://thecoolhunter.net/wp-content/uploads/old-blog-images/larc2.jpg");*/
+    background-image: url("https://media.timeout.com/images/100894675/image.jpg");
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body { 
+    /* The image used */
+    background-image: url("http://www.tilemountain.co.uk/media/catalog/product/cache/1/image/2000x/040ec09b1e35df139433887a97daa66f/e/x/extreme_matt_black_floor_tile_437385.jpg");
+    background-size: cover;
+}
+
+.contrast {
+	color: silver;
+	text-align: center;
+  font-size: 300%;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #000000;
+}
