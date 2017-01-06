@@ -10,7 +10,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import {Well} from 'react-bootstrap';
 import {PageHeader} from 'react-bootstrap';
-import {YOUTUBE_API_KEY} from '../keys';
 
 
 class App extends Component {
