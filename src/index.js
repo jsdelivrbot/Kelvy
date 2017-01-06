@@ -25,7 +25,7 @@ class App extends Component {
 	}
 
 	videoSearch(term) {
-		YTSearch({key: YOUTUBE_API_KEY, term: term}, (videos) => {
+		YTSearch({key: process.env.YOUTUBE_API_KEY, term: term}, (videos) => {
 			// this.setState({ videos: videos }) Refactores below in ES6
 			this.setState({ 
 				videos: videos,
