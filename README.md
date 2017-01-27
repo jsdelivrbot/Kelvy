@@ -1,6 +1,6 @@
 # Welcome to Kelvy
 
-The Add-Less Youtube Video Search Website that utilizes the React.js framework and the Google Youtube API.
+The Ad-Less Youtube Video Search Website that utilizes the React.js framework and the Google Youtube API.
 
 Stack: React.js | Youtube API
 
