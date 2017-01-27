@@ -11,7 +11,6 @@ import VideoDetail from './components/video_detail';
 import {Well} from 'react-bootstrap';
 import {PageHeader} from 'react-bootstrap';
 
-const YOUTUBE_API_KEY = AIzaSyAg5TbW5uTo-q-FguiWN3ZQR56DsBClno4;
 
 class App extends Component {
 	constructor(props) {
@@ -26,8 +25,7 @@ class App extends Component {
 	}
 
 	videoSearch(term) {
-		YTSearch({key: YOUTUBE_API_KEY, term: term}, (videos) => {
-		// YTSearch({key: process.env.YOUTUBE_API_KEY, term: term}, (videos) => {
+		YTSearch({key: process.env.YOUTUBE_API_KEY, term: term}, (videos) => {
 			// this.setState({ videos: videos }) Refactores below in ES6
 			this.setState({ 
 				videos: videos,
