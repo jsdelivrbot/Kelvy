@@ -7,10 +7,3 @@ Stack: React.js | Youtube API
 -----------------------------
 ![Kelvy](/kelvy.png?raw=true "Kelvy")
 -----------------------------
-
-Please run the following commands from your terminal:
-
-```
-	> npm install
-	> npm start
-```
