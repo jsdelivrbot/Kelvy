@@ -6,7 +6,7 @@ class JumbotronInstance extends Component {
 		return (
 			<Jumbotron className="parallax">
 				<h2 className="contrast">Welcome to KELVY</h2>
-				<p className="contrast">The YouTube Add-Less Search Website</p>
+				<p className="contrast">The YouTube Ad-Less Search Website</p>
 			</Jumbotron>
 		)
 	}

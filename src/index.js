@@ -10,10 +10,11 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import {Well} from 'react-bootstrap';
 import {PageHeader} from 'react-bootstrap';
+import { YOUTUBE_API_KEY } from '../keys.js';
 
-const YOUTUBE_API_KEY = 'AIzaSyAg5TbW5uTo-q-FguiWN3ZQR56DsBClno4';
 
 class App extends Component {
+
 	constructor(props) {
 		super(props);
 
@@ -44,7 +45,7 @@ class App extends Component {
 				<JumbotronInstance />
 				<JumbotronInstance />
 				<JumbotronInstance />
-				<JumbotronInstance />
+				
 				
         <Well bsSize="small"><PageHeader><SearchBar onSearchTermChange={videoSearch} /></PageHeader></Well>
 				<VideoDetail video={this.state.selectedVideo}/>
